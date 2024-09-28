@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCalculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary Brand Color -->
+         <item name="colorPrimary">@color/grey_black</item>
+         <item name="colorPrimaryVariant">@color/grey_black</item>item>
+         <item name="colorOnPrimary">@color/silver_white</item>item>
+        <!-- Secondary Color Brand -->
+         <item name="colorSecondary">@color/grey_black</item>
+         <item name="colorSecondaryVariant">@color/grey_black</item>item>
+         <item name="colorOnSecondary">@color/silver_white</item>item>
+        <!-- status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name = "button1">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/shape1</item>
+    </style>
+
+    <style name = "button2">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/shape2</item>
+    </style>
+
+<!--    <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator" />-->
+</resources>
